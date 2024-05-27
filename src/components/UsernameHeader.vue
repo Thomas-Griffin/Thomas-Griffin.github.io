@@ -3,7 +3,6 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
 
 defineProps({
     username: {
@@ -22,7 +21,7 @@ defineProps({
   text-decoration: none;
   line-height: 1.25;
   display: block;
-  color: var(--color);
+  color: var(--colour);
   margin: 0;
 }
 </style>

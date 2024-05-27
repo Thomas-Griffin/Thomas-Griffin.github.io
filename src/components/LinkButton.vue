@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-import {computed, defineProps} from 'vue';
+import {computed} from 'vue';
 
 const props = defineProps(
     {
@@ -42,13 +42,15 @@ const image = computed(() => {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 12px;
-  padding: 15px;
+  margin-bottom: 5px;
+  padding: 16px;
   border-radius: 50px;
-  border: solid var(--color) 2px;
+  border: solid var(--colour) 2px;
   text-decoration: none;
   transition: transform 250ms;
-  background-color: rgb(31, 32, 35);
+  background-color: rgb(0, 0, 0);
+  max-height: 10px;
+
 }
 
 .link:hover {
@@ -59,9 +61,11 @@ const image = computed(() => {
   width: 32px;
   height: 32px;
   display: block;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: -10px;
+  padding-left: 0;
+  margin-right: 15px;
   vertical-align: middle;
+  border-radius: 50px;
 }
 
 #logo-label {
@@ -71,7 +75,7 @@ const image = computed(() => {
   margin-right: 30px;
   font-size: 1.25rem;
   font-weight: 500;
-  color: var(--color);
+  color: var(--colour);
   word-wrap: break-word;
   white-space: nowrap;
   flex-grow: 1;
