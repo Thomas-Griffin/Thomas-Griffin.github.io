@@ -10,8 +10,8 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "core-js": "^3.39.0",
-    "vue": "^3.5.12"
+    "core-js": "^3.40.0",
+    "vue": "^3.5.13"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
