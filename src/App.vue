@@ -11,7 +11,7 @@
 
 <script setup>
 const headerUsername = "Thomas Griffin"
-const footerUsername = "@ThomasGriffin"
+const footerUsername = "Thomas Griffin"
 const links = [
   {
     text: "GitHub",
@@ -72,7 +72,13 @@ const links = [
     websiteLink: "https://stackoverflow.com/users/",
     imageFile: "stackoverflow-icon.svg",
     username: "11799865/thomas-griffin"
-  }
+  },
+  {
+    text: "Credly",
+    websiteLink: "https://www.credly.com/users/",
+    imageFile: "credly-icon.svg",
+    username: "thomas-james-griffin"
+  },
 ]
 </script>
 
@@ -100,7 +106,7 @@ body {
 }
 
 #profile-pic {
-  width: 100px;
+  width: 130px;
   height: 130px;
   display: block;
   margin: 20px auto 20px;
