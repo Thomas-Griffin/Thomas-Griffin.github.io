@@ -1,6 +1,6 @@
 <template>
   <div id="content">
-    <img id="profile-pic" alt="Thomas Griffin" src="/assets/img/profile-pic.jpg">
+    <img id="profile-picture" alt="Thomas Griffin" src="/assets/img/profile-pic.jpg">
     <username-header :username="headerUsername"/>
     <div id="links">
       <link-button v-for="link in links" :key="link.text" v-bind="link"/>
@@ -105,7 +105,7 @@ body {
   position: relative;
 }
 
-#profile-pic {
+#profile-picture {
   width: 130px;
   height: 130px;
   display: block;
