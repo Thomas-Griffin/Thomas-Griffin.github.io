@@ -79,6 +79,12 @@ const links = [
     imageFile: "credly-icon.svg",
     username: "thomas-james-griffin"
   },
+  {
+    text: "daily.dev",
+    websiteLink: "https://app.daily.dev/",
+    imageFile: "daily-dev-icon.svg",
+    username: "thomasgriffin"
+  },
 ]
 </script>
 
