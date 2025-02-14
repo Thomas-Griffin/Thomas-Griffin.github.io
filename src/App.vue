@@ -41,7 +41,7 @@ const links = [
     text: "Instagram",
     websiteLink: "https://www.instagram.com/",
     imageFile: "instagram-icon.svg",
-    username: "_thomas.griffin_"
+    username: "ThomasJamesPeterGriffin"
   },
   {
     text: "Twitter",
