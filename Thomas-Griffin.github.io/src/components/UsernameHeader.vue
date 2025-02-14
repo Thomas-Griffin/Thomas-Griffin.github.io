@@ -2,14 +2,13 @@
   <h1 id="username-header">{{ username }}</h1>
 </template>
 
-<script setup>
-
+<script setup lang="ts">
 defineProps({
-    username: {
-      type: String,
-      required: true
-    }
-  })
+  username: {
+    type: String,
+    required: true
+  }
+})
 </script>
 
 <style scoped>

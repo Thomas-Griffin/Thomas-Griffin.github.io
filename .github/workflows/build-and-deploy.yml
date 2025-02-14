@@ -20,10 +20,11 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
+          cd Thomas-Griffin.github.io
           npm install
           npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist
+          folder: Thomas-Griffin.github.io/dist

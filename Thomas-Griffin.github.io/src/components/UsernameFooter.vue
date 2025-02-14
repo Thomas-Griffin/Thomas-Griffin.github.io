@@ -2,8 +2,7 @@
   <footer>{{ username }}</footer>
 </template>
 
-<script setup>
-
+<script setup lang="ts">
 defineProps({
   username: {
     type: String,
@@ -14,6 +13,7 @@ defineProps({
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
 footer {
   font-family: 'Fuggles', cursive;
   text-align: center;

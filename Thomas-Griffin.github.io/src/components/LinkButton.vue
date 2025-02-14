@@ -5,7 +5,7 @@
   </a>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import {computed} from 'vue';
 
 const props = defineProps(
@@ -64,7 +64,6 @@ const image = computed(() => {
   margin-left: -10px;
   padding-left: 0;
   margin-right: 15px;
-  vertical-align: middle;
   border-radius: 50px;
 }
 
