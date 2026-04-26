@@ -25,6 +25,12 @@ const links = [
     username: 'thomas-griffin'
   },
   {
+    text: 'GitLab',
+    websiteLink: 'https://gitlab.com/',
+    imageFile: 'gitlab-icon.svg',
+    username: 'Thomas-Griffin'
+  },
+  {
     text: 'LinkedIn',
     websiteLink: 'https://www.linkedin.com/in/',
     imageFile: 'linkedin-icon.svg',
